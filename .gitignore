@@ -1,0 +1,77 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================
+# Dados brutos e processados
+# ========================
+data/raw/*.parquet
+data/raw/*.csv
+data/staging/*.parquet
+data/staging/*.csv
+data/rejected/*.parquet
+data/rejected/*.csv
+
+# ========================
+# Variáveis de ambiente
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# Airflow
+# ========================
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/webserver_config.py
+airflow/standalone_admin_password.txt
+
+# ========================
+# Spark
+# ========================
+spark-warehouse/
+derby.log
+metastore_db/
+
+# ========================
+# Docker
+# ========================
+*.override.yml
+
+# ========================
+# IDEs e Editores
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
